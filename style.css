@@ -284,7 +284,7 @@ color: #000;
   background: #D3D3D3;
   height: 35px;
   border-radius: 3px;
-  width: 650px;
+  width: 60%;
 }
 
 .skillbar-title {
@@ -442,4 +442,250 @@ padding-top: 20px;
     margin: 0 auto;
     padding: 10px 0;
     width: 350px;
+}
+@media only screen and(min-width:1024) and (max-width: 1240px) 
+{
+	#resume {
+	height: 170vh;
+	}
+.education h1 span {
+    border-bottom: 3px solid #555;
+    padding-bottom: 6px;
+}
+.education h1 {
+    font: 20px 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight:bold	
+    }
+.twelve h3 {
+	font: 20px 'Roboto', sans-serif;
+	color: #000;
+}
+.twelve .info{
+	font: 15px 'Roboto', serif;
+    color: #6E7881;
+    font-weight: 300;
+    margin-bottom: 18px;
+    margin-top: 9px;
+}
+.twelve .info span {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.twelve .date {
+    font: 15px 'Roboto', sans-serif;
+    margin-top: 6px;
+        font-weight: 300;
+}
+.twelve p {
+    margin: 0 0 30px 0;
+    color: #6E7881;
+        font-weight: 300;
+
+}
+.education {
+	float: left;
+	width: 100%;
+	height: 100px;
+	text-align:center;
+}
+.twelve{
+	float: left;
+	width: 100%;
+	height: 150px;
+	text-align:center;
+}
+.top {
+	width:100%;
+	float:left;
+	height: 100px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.top h1 {
+	font: 35px 'Roboto', sans-serif;
+	font-weight: 300;
+	border-bottom: 4px double #F06000;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 350px;
+}
+#resume {
+	padding-top: 100px;
+	height: 150vh;
+	background: #fff;
+}
+.second h3 {
+	font: 25px/30px 'Roboto', sans-serif;
+	color: #000;
+}
+.second .info{
+	font: 16px/24px 'Roboto', serif;
+    color: #6E7881;
+    margin-bottom: 18px;
+    margin-top: 9px;
+        font-weight: 300;
+}
+.second .info span {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.second .date {
+    font: 15px/24px 'Roboto', sans-serif;
+    margin-top: 6px;
+        font-weight: 300;
+}
+.second p {
+    margin: 0 0 30px 0;
+    color: #6E7881;
+        font-weight: 300;
+    }
+.second {
+	float: left;
+	width: 100%;
+	height: 150px;
+	text-align:center;
+}
+.one {
+	height: 450px;
+	padding-top: 200px;
+	margin: 0 15%;
+}
+.two {
+	height: 350px;
+	padding-top: 40px;
+	margin: 0 15%;
+	margin-top: 50px;
+}
+.three {
+	
+}
+.skillbar {
+  position: relative;
+  display: inline-block;
+  margin: 15px 0;
+  background: #D3D3D3;
+  height: 35px;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.skillbar-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110px;
+  font-weight: bold;
+  font-size: 13px;
+  color: #ffffff;
+  background: #6adcfa;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+  height: 35px;
+  line-height: 35px;
+}
+
+.skillbar-bar {
+  height: 35px;
+  width: 0px;
+  background: #6adcfa;
+  border-radius: 3px;
+  display: inline-block;
+}
+#portfolio {
+	height: 80vh;
+	background: #fff;
+	padding-top: 100px;
+}
+#mail
+{
+	height: 100vh;
+	background: #222;
+}
+#mail label {
+	font: 15px/24px 'Roboto', sans-serif;
+    margin: 12px 0;
+    color: #EBEEEE;
+    display: inline-block;
+    float: left;
+    width: 150px;
+    float: left;
+}
+#mail input, #mail textarea, #mail select {
+	padding: 18px 20px;
+    color: #eee;
+    background: #555;
+    margin-bottom: 42px;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    line-height: 24px;
+    width: 80%;
+    float: left;
+}
+#mail input:focus {
+	background: #F06000;
+}
+
+.fields {
+	padding: 0 10%;
+	float:left;
+	width: 80%;
+	height: 780px;
+	padding-top:100px;
+}
+#mesimg h1 {
+float:left;
+font: 16px 'Roboto', sans-serif;
+font-weight: bold;
+color: rgba(250, 250, 250, .5);
+width: 80%;
+}
+#mesimg img {
+	float: left;
+	width: 20%;
+}
+#mesimg {
+	height: 80px;
+	width: 100%;
+	
+}
+.widget h4{
+	font: 16px/24px 'Roboto', sans-serif;
+    color: #EBEEEE;
+    margin-bottom: 6px;
+    }
+.widget p{
+	line-height: 30px;
+	color: rgba(250, 250, 250, .5);
+	font:'Roboto', sans-serif;
+}
+.widget {
+	float: left;
+	height: 650px;
+	width: 20%;
+	padding-top:230px;
+	margin-left: -10%;
+}
+.send {
+	background-color: #000;
+	padding: 15px 30px;
+	font-size: 18px;
+	font-family: 'Roboto';
+	color: #fff;
+	border-radius: 7px;
+	float: left;
+	margin-left: 100px;	
+}
+.send:hover{
+	background-color: #ddd;
+	color: #000;
+}
+.sendbtn {
+	float: left;
+}
 }
