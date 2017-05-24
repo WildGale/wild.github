@@ -181,7 +181,7 @@ color: #000;
 	float: left;
 }
 .education h1 span {
-    border-bottom: 3px solid #555;
+    border-bottom: 3px solid #F06000;
     padding-bottom: 6px;
 }
 .education h1 {
@@ -370,6 +370,7 @@ padding-top: 20px;
 }
 #mesimg img {
 	float: left;
+	width:80px;
 }
 #mesimg {
 	height: 130px;
@@ -443,13 +444,13 @@ padding-top: 20px;
     padding: 10px 0;
     width: 350px;
 }
-@media only screen and(min-width:1024) and (max-width: 1240px) 
+@media only screen and (max-width: 1200px) 
 {
 	#resume {
 	height: 170vh;
 	}
 .education h1 span {
-    border-bottom: 3px solid #555;
+    border-bottom: 3px solid #F06000;
     padding-bottom: 6px;
 }
 .education h1 {
@@ -487,13 +488,13 @@ padding-top: 20px;
 .education {
 	float: left;
 	width: 100%;
-	height: 100px;
+	height: 90px;
 	text-align:center;
 }
 .twelve{
 	float: left;
 	width: 100%;
-	height: 150px;
+	height: 120px;
 	text-align:center;
 }
 .top {
@@ -514,7 +515,7 @@ padding-top: 20px;
 }
 #resume {
 	padding-top: 100px;
-	height: 150vh;
+	height: 1500px;
 	background: #fff;
 }
 .second h3 {
@@ -555,12 +556,12 @@ padding-top: 20px;
 }
 .two {
 	height: 350px;
-	padding-top: 40px;
+	padding-top: 80px;
 	margin: 0 15%;
 	margin-top: 50px;
 }
 .three {
-	
+	padding-top: 80px;	
 }
 .skillbar {
   position: relative;
@@ -597,13 +598,13 @@ padding-top: 20px;
   display: inline-block;
 }
 #portfolio {
-	height: 80vh;
+	height: 1050px;
 	background: #fff;
 	padding-top: 100px;
 }
 #mail
 {
-	height: 100vh;
+	height: 1000px;
 	background: #222;
 }
 #mail label {
@@ -644,10 +645,11 @@ font: 16px 'Roboto', sans-serif;
 font-weight: bold;
 color: rgba(250, 250, 250, .5);
 width: 80%;
+
 }
 #mesimg img {
 	float: left;
-	width: 20%;
+	width: 80px;
 }
 #mesimg {
 	height: 80px;
@@ -688,4 +690,10 @@ width: 80%;
 .sendbtn {
 	float: left;
 }
+#home {
+	padding-top: 30%;
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
 }
