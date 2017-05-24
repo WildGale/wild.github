@@ -229,7 +229,7 @@ color: #000;
 }
 #resume {
 	padding-top: 100px;
-	height: 140vh;
+	height: 1300px;
 	background: #fff;
 }
 .second h3 {
@@ -312,7 +312,7 @@ color: #000;
   display: inline-block;
 }
 #portfolio {
-	height: 140vh;
+	height: 1300px;
 	background: #fff;
 	padding-top: 100px;
 }
@@ -324,7 +324,7 @@ color: #000;
 }
 #mail
 {
-	height: 100vh;
+	height: 900px;
 	background: #222;
 }
 #mail label {
