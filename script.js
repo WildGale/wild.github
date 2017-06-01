@@ -49,19 +49,13 @@ $(document).ready(function() {
     });
 
 });
-var widgetOptions28967 = {
-    bg_color: "transparent"
-};
+var widgetOptions28967 = { bg_color: "transparent" };
 (function() {
     var a = document.createElement("script");
     a.async = true;
     a.src = (document.location.protocol == "https:" ? "https:" : "http:") + "//ucalc.pro/api/widget.js?id=28967&t=" + Math.floor(new Date() / 3600000);
     document.getElementsByTagName("head")[0].appendChild(a)
 })();
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-36251023-1']);
-_gaq.push(['_setDomainName', 'jqueryscript.net']);
-_gaq.push(['_trackPageview']);
 
 (function() {
     var ga = document.createElement('script');
@@ -71,3 +65,17 @@ _gaq.push(['_trackPageview']);
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(ga, s);
 })();
+$(document).ready(function() {
+
+    $("#form").submit(function() {
+        $.ajax({
+            type: "POST",
+            url: "mail.php",
+            data: $(this).serialize()
+        }).done(function() {
+            alert("Спасибо за заявку! Скоро мы с вами свяжемся.");
+        });
+        return false;
+    });
+
+});
