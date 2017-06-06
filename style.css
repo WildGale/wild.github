@@ -663,6 +663,7 @@
                 padding: 100px 20%;
                 background: #777 url(sky.jpg) no-repeat bottom;
                 background-size: cover;
+                color: #000;
             }
             
             .inputText {
