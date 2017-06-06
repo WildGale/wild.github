@@ -597,6 +597,7 @@
             
             #jsElements h2 {
                 font: 30px 'Roboto', sans-serif;
+                color: #fff;
                 font-weight: 300;
                 margin: 20px auto;
                 padding: 10px 0;
@@ -679,19 +680,22 @@
             }
             
             .calc {
-                background: rgba(0, 0, 0, .5);
+                background: rgba(0, 0, 0, .6);
                 padding: 50px;
                 border-radius: 30px;
             }
             
             .table {
                 font: 17px 'Roboto', sans-serif;
+                color: #fff;
                 font-weight: 100;
                 line-height: 1.3;
+                padding-bottom: 30px;
             }
             
             .radios {
                 font: 17px 'Roboto', sans-serif;
+                color: #fff;
                 font-weight: 100;
                 line-height: 1.5;
                 padding: 20px 0;
@@ -701,6 +705,7 @@
                 font: 20px 'Roboto', sans-serif;
                 font-weight: 100;
                 line-height: 1;
+                color: #fff;
             }
             
             @media only screen and (max-width: 1200px) {
